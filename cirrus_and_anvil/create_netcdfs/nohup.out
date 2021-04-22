@@ -1,0 +1,437 @@
+/usr/lib/python2.7/site-packages/matplotlib/ticker.py:1852: UserWarning: Steps argument should be a sequence of numbers
+increasing from 1 to 10, inclusive. Behavior with
+values outside this range is undefined, and will
+raise a ValueError in future versions of mpl.
+  warnings.warn('Steps argument should be a sequence of numbers\n'
+/usr/lib/python2.7/site-packages/iris/fileformats/rules.py:334: UserWarning: Unable to create instance of HybridHeightFactory. The source data contains no field(s) for 'orography'.
+  warnings.warn(msg.format(factory=factory_name))
+/usr/lib/python2.7/site-packages/matplotlib/ticker.py:1852: UserWarning: Steps argument should be a sequence of numbers
+increasing from 1 to 10, inclusive. Behavior with
+values outside this range is undefined, and will
+raise a ValueError in future versions of mpl.
+  warnings.warn('Steps argument should be a sequence of numbers\n'
+/usr/lib/python2.7/site-packages/iris/fileformats/rules.py:334: UserWarning: Unable to create instance of HybridHeightFactory. The source data contains no field(s) for 'orography'.
+  warnings.warn(msg.format(factory=factory_name))
+/usr/lib/python2.7/site-packages/scipy/ndimage/measurements.py:431: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  safe = ((np.issubdtype(dt, int) and dt.itemsize <= int_size) or
+[?1034h[1;31m---------------------------------------------------------------------------[0m
+[1;31mNameError[0m                                 Traceback (most recent call last)
+[1;32m/home/users/rhawker/ICED_CASIM_master_scripts/cirrus_and_anvil/create_netcdfs/cloud_fraction_by_height_create_nc.py[0m in [0;36m<module>[1;34m()[0m
+[0;32m    203[0m [1;32mfor[0m [0mdp[0m [1;32min[0m [0mrange[0m[1;33m([0m[1;36m0[0m[1;33m,[0m[0mlen[0m[1;33m([0m[0mdata_paths[0m[1;33m)[0m[1;33m)[0m[1;33m:[0m[1;33m[0m[0m
+[0;32m    204[0m     [0mdata_path[0m [1;33m=[0m [0mdata_paths[0m[1;33m[[0m[0mdp[0m[1;33m][0m[1;33m[0m[0m
+[1;32m--> 205[1;33m     [0mseparate_cloud_fraction_by_levels_including_combos[0m[1;33m([0m[0mdata_path[0m[1;33m)[0m[1;33m[0m[0m
+[0m[0;32m    206[0m [1;33m[0m[0m
+
+[1;32m/home/users/rhawker/ICED_CASIM_master_scripts/cirrus_and_anvil/create_netcdfs/cloud_fraction_by_height_create_nc.py[0m in [0;36mseparate_cloud_fraction_by_levels_including_combos[1;34m(data_path)[0m
+[0;32m    191[0m         [1;31m#print names[n][0m[1;33m[0m[1;33m[0m[0m
+[0;32m    192[0m         [1;31m#print var[:][0m[1;33m[0m[1;33m[0m[0m
+[1;32m--> 193[1;33m      [1;32mprint[0m [0moutfile[0m[1;33m[0m[0m
+[0m[0;32m    194[0m      [0mncfile1[0m[1;33m.[0m[0mclose[0m[1;33m([0m[1;33m)[0m[1;33m[0m[0m
+[0;32m    195[0m      [1;32mprint[0m [1;34m'File created'[0m[1;33m[0m[0m
+
+[1;31mNameError[0m: global name 'outfile' is not defined
+[?1034hheight calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus7.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus6.nc
+File created
+File created
+height calculated from potential_temperature cube
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_cell_number_two_D_domain_mean_timeseries_cloud_lim_10eminus5.nc
+File created
+File created
+ : Fatal IO error: client killed
+/usr/lib/python2.7/site-packages/matplotlib/ticker.py:1852: UserWarning: Steps argument should be a sequence of numbers
+increasing from 1 to 10, inclusive. Behavior with
+values outside this range is undefined, and will
+raise a ValueError in future versions of mpl.
+  warnings.warn('Steps argument should be a sequence of numbers\n'
+/usr/lib/python2.7/site-packages/iris/fileformats/rules.py:334: UserWarning: Unable to create instance of HybridHeightFactory. The source data contains no field(s) for 'orography'.
+  warnings.warn(msg.format(factory=factory_name))
+[?1034h/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/DeMott2010/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Cooper1986/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Meyers1992/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_DM10/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Niemand2012/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/NO_HM_Atkinson2013/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus7.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus6.nc
+File created
+File created
+File created
+File created
+/group_workspaces/jasmin2/asci/rhawker/ICED_b933_case/HOMOG_and_HM_no_het/um/netcdf_summary_files/cirrus_and_anvil/cloud_fraction_by_height_cloud_lim_10eminus5.nc
+File created
+File created
+File created
+File created
+ : Fatal IO error: client killed

@@ -1,0 +1,56 @@
+Sender: LSF System <lsfadmin@host366.jc.rl.ac.uk>
+Subject: Job 863740: <python2.7 2D_histogram_cell_cize_updraft.py /group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/ 05> in cluster <lotus> Exited
+
+Job <python2.7 2D_histogram_cell_cize_updraft.py /group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/ 05> was submitted from host <jasmin-sci2-panfs.ceda.ac.uk> by user <rhawker> in cluster <lotus> at Wed Mar 21 16:12:59 2018.
+Job was executed on host(s) <host366.jc.rl.ac.uk>, in queue <short-serial>, as user <rhawker> in cluster <lotus> at Wed Mar 21 16:13:01 2018.
+</home/users/rhawker> was used as the home directory.
+</group_workspaces/jasmin/asci/rhawker/ICED_b933_case/ICED_CASIM_master_scripts/aircraft_comparisons> was used as the working directory.
+Started at Wed Mar 21 16:13:01 2018.
+Terminated at Wed Mar 21 16:13:23 2018.
+Results reported at Wed Mar 21 16:13:23 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python2.7 2D_histogram_cell_cize_updraft.py /group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/ 05
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   10.38 sec.
+    Max Memory :                                 1248.01 MB
+    Average Memory :                             1248.01 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   2031 MB
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   22 sec.
+    Turnaround time :                            24 sec.
+
+The output (if any) follows:
+
+/usr/lib/python2.7/site-packages/iris/fileformats/rules.py:946: UserWarning: Unable to create instance of HybridHeightFactory. The source data contains no field(s) for 'orography'.
+  warnings.warn(msg.format(factory=factory_name))
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00120005.pp
+height calculated from potential_temperature cube
+Traceback (most recent call last):
+  File "2D_histogram_cell_cize_updraft.py", line 221, in <module>
+    ice_water_mmr = ice_crystal_mmr.data + snow_mmr.data + graupel_mmr.data
+  File "/usr/lib/python2.7/site-packages/iris/cube.py", line 1703, in data
+    data = data.masked_array()
+  File "/usr/lib/python2.7/site-packages/biggus/_init.py", line 1820, in masked_array
+    masked_array = self._stack[index].masked_array()
+  File "/usr/lib/python2.7/site-packages/biggus/_init.py", line 1820, in masked_array
+    masked_array = self._stack[index].masked_array()
+  File "/usr/lib/python2.7/site-packages/biggus/_init.py", line 1471, in masked_array
+    array = self._apply_keys()
+  File "/usr/lib/python2.7/site-packages/biggus/_init.py", line 1530, in _apply_keys
+    array = self.concrete.__getitem__(keys)
+  File "/usr/lib/python2.7/site-packages/iris/fileformats/pp.py", line 876, in __getitem__
+    data_bytes = pp_file.read(self.data_len)
+KeyboardInterrupt

@@ -1,0 +1,141 @@
+Sender: LSF System <lsfadmin@host281.jc.rl.ac.uk>
+Subject: Job 862129: <python2.7 2D_histogram_cell_cize_updraft.py /group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/ 05> in cluster <lotus> Exited
+
+Job <python2.7 2D_histogram_cell_cize_updraft.py /group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/ 05> was submitted from host <jasmin-sci2-panfs.ceda.ac.uk> by user <rhawker> in cluster <lotus> at Wed Mar 21 15:56:31 2018.
+Job was executed on host(s) <host281.jc.rl.ac.uk>, in queue <short-serial>, as user <rhawker> in cluster <lotus> at Wed Mar 21 15:57:43 2018.
+</home/users/rhawker> was used as the home directory.
+</group_workspaces/jasmin/asci/rhawker/ICED_b933_case/ICED_CASIM_master_scripts/aircraft_comparisons> was used as the working directory.
+Started at Wed Mar 21 15:57:43 2018.
+Terminated at Wed Mar 21 16:05:15 2018.
+Results reported at Wed Mar 21 16:05:15 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python2.7 2D_histogram_cell_cize_updraft.py /group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/ 05
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   324.50 sec.
+    Max Memory :                                 8187.15 MB
+    Average Memory :                             5366.54 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   9101 MB
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   452 sec.
+    Turnaround time :                            524 sec.
+
+The output (if any) follows:
+
+/usr/lib/python2.7/site-packages/iris/fileformats/rules.py:946: UserWarning: Unable to create instance of HybridHeightFactory. The source data contains no field(s) for 'orography'.
+  warnings.warn(msg.format(factory=factory_name))
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00120005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2075281
+updraft array non zero
+2065066
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00121005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2079482
+updraft array non zero
+2068763
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00122005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2095615
+updraft array non zero
+2085086
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00123005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2124785
+updraft array non zero
+2114017
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00124005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2160680
+updraft array non zero
+2149455
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00125005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2212519
+updraft array non zero
+2200802
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00130005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2270336
+updraft array non zero
+2258837
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00131005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2322588
+updraft array non zero
+2311167
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00132005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2373604
+updraft array non zero
+2361829
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00133005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2406500
+updraft array non zero
+2395044
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00134005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2420665
+updraft array non zero
+2409332
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00135005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2426529
+updraft array non zero
+2414805
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00140005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2375170
+updraft array non zero
+2363799
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00141005.pp
+height calculated from potential_temperature cube
+size array nonzero
+2326369
+updraft array non zero
+2315125
+/group_workspaces/jasmin/asci/rhawker/ICED_b933_case/Niemand2012/um/Niemand2012_pc00142005.pp
+Traceback (most recent call last):
+  File "2D_histogram_cell_cize_updraft.py", line 159, in <module>
+    Exner = Ex_cube.interpolate( [('level_height',potential_temperature.coord('level_height').points)], iris.analysis.Linear() )
+  File "/usr/lib/python2.7/site-packages/iris/cube.py", line 3812, in interpolate
+    interp = scheme.interpolator(self, coords)
+  File "/usr/lib/python2.7/site-packages/iris/analysis/__init__.py", line 2134, in interpolator
+    self._normalised_extrapolation_mode())
+  File "/usr/lib/python2.7/site-packages/iris/analysis/_interpolation.py", line 228, in __init__
+    src_cube.data
+  File "/usr/lib/python2.7/site-packages/iris/cube.py", line 1703, in data
+    data = data.masked_array()
+  File "/usr/lib/python2.7/site-packages/biggus/_init.py", line 1820, in masked_array
+    masked_array = self._stack[index].masked_array()
+  File "/usr/lib/python2.7/site-packages/biggus/_init.py", line 1821, in masked_array
+    data[index] = masked_array
+  File "/usr/lib/python2.7/site-packages/numpy/ma/core.py", line 3372, in __setitem__
+    _data[indx] = dval
+KeyboardInterrupt
